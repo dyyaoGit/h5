@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>phone</title><link rel=stylesheet href=http://at.alicdn.com/t/font_w46cyn7uw744pldi.css><link href=/static/css/app.bf2ee8da7893abd69e826be30465fdcc.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.de4d89b59b6dfe51bff2.js></script><script type=text/javascript src=/static/js/vendor.2dd8d72f343dda4613b9.js></script><script type=text/javascript src=/static/js/app.8ea099747c5def980d14.js></script></body><script>function setScreen() {
+      var deviceWidth = document.documentElement.clientWidth;
+      if (deviceWidth > 750) deviceWidth = 750;
+      document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+    }
+    setScreen();
+    window.onresize=function() {
+      setScreen();
+    }</script></html>

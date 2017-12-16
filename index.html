@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>phone</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_w46cyn7uw744pldi.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    function setScreen() {
+      var deviceWidth = document.documentElement.clientWidth;
+      if (deviceWidth > 750) deviceWidth = 750;
+      document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+    }
+    setScreen();
+    window.onresize=function() {
+      setScreen();
+    }
+  </script>
+</html>
